@@ -1,0 +1,18 @@
+service-registration-and-discovery-client:
+  springboot_application_name: service-registration-and-discovery-client
+  ms_number: 2
+  app_vesrion: 0.0.1-SNAPSHOT
+  log_sub_dir: /log
+  data_sub_dir: /data
+  pid_sub_dir: /pid
+  tmp_sub_dir: /tmp
+
+service-registration-and-discovery-service:
+  springboot_application_name: service-registration-and-discovery-service
+  ms_number: 1
+  app_vesrion: 0.0.1-SNAPSHOT
+  log_sub_dir: /log
+  data_sub_dir: /data
+  pid_sub_dir: /pid
+  tmp_sub_dir: /tmp
+  springboot_backend_name: back
