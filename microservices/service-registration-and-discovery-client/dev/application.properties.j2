@@ -1,0 +1,11 @@
+spring.application.name={{ springboot_application_name }}
+server.port=8080
+logging.level.org.springframework=DEBUG
+eureka.client.service-url.defaultZone=http://{{ springboot_backend_name }}:8761/eureka
+
+management.endpoints.web.exposure.include = health, info, shutdown, beans 
+management.info.env.enabled=true
+management.info.build.enabled=true
+management.info.git.enabled=true
+management.info.java.enabled=true
+management.info.os.enabled=true

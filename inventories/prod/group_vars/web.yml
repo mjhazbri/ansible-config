@@ -1,3 +1,0 @@
-VARIABLE: "web"
-PACKAGES_GROUP:
-  - nginx
