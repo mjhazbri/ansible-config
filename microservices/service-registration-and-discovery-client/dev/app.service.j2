@@ -4,7 +4,7 @@ After=syslog.target
 
 [Service]
 User={{ username }}
-ExecStart="{{ jar_target }}.jar"
+ExecStart="{{ jar_target }}"
 SuccessExitStatus=143
 
 [Install]
