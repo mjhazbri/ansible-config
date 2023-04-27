@@ -7,6 +7,7 @@ service-registration-and-discovery-client:
   data_sub_dir: /data
   pid_sub_dir: /pid
   tmp_sub_dir: /tmp
+  dmp_sub_dir: /dmp
 
 service-registration-and-discovery-service:
   springboot_application_name: service-registration-and-discovery-service
@@ -17,4 +18,5 @@ service-registration-and-discovery-service:
   data_sub_dir: /data
   pid_sub_dir: /pid
   tmp_sub_dir: /tmp
+  dmp_sub_dir: /dmp
   springboot_backend_name: back
