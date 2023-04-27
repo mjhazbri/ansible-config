@@ -1,5 +1,5 @@
 service-registration-and-discovery-client:
-  springboot_application_name: service-registration-and-discovery-client
+  app_name: service-registration-and-discovery-client
   ms_type: front
   ms_number: 2
   app_vesrion: 0.0.1-SNAPSHOT
@@ -13,7 +13,7 @@ service-registration-and-discovery-client:
   springboot_backend_name: back
 
 service-registration-and-discovery-service:
-  springboot_application_name: service-registration-and-discovery-service
+  app_name: service-registration-and-discovery-service
   ms_type: back
   ms_number: 1
   app_vesrion: 0.0.1-SNAPSHOT
