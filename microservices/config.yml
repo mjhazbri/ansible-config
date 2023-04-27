@@ -10,6 +10,7 @@ service-registration-and-discovery-client:
   dmp_sub_dir: /dmp
   config_sub_dir: /config
   properties_file_name: application.properties
+  springboot_backend_name: back
 
 service-registration-and-discovery-service:
   springboot_application_name: service-registration-and-discovery-service
@@ -23,4 +24,3 @@ service-registration-and-discovery-service:
   dmp_sub_dir: /dmp
   config_sub_dir: /config
   properties_file_name: application.properties
-  springboot_backend_name: back
