@@ -1,8 +1,10 @@
 service-registration-and-discovery-client:
   app_name: service-registration-and-discovery-client
-  ms_type: front
-  ms_number: 2
+  type: front
+  number: 2
   app_vesrion: 0.0.1-SNAPSHOT
+  
+  //DEfault
   log_sub_dir: /log
   data_sub_dir: /data
   pid_sub_dir: /pid
@@ -10,13 +12,14 @@ service-registration-and-discovery-client:
   dmp_sub_dir: /dmp
   config_sub_dir: /config
   properties_file_name: application.properties
-  springboot_backend_name: back
+  //DEfault
 
 service-registration-and-discovery-service:
   app_name: service-registration-and-discovery-service
-  ms_type: back
-  ms_number: 1
+  type: back
+  number: 1
   app_vesrion: 0.0.1-SNAPSHOT
+  
   log_sub_dir: /log
   data_sub_dir: /data
   pid_sub_dir: /pid
@@ -24,3 +27,5 @@ service-registration-and-discovery-service:
   dmp_sub_dir: /dmp
   config_sub_dir: /config
   properties_file_name: application.properties
+
+
