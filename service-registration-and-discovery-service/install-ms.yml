@@ -1,0 +1,4 @@
+log_sub_dir: /log
+data_sub_dir: /data
+pid_sub_dir: /pid
+tmp_sub_dir: /tmp
