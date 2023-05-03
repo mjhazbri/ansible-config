@@ -1,1 +1,3 @@
 springboot_backend_name: back
+client_param_one: server
+client_param_two: otherServer
