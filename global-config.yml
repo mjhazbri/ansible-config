@@ -1,2 +1,3 @@
-# globals paramsfor all microservices like (eureka, database ...)
+################################### Required ######################################
+# globals params for all microservices like (eureka, database ...)
 app_dir: /opt/microservices

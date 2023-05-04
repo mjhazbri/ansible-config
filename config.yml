@@ -1,3 +1,4 @@
+################################### Required ######################################
 service-registration-and-discovery-client:
   app_name: service-registration-and-discovery-client
   type: front
@@ -13,3 +14,5 @@ service-registration-and-discovery-service:
   app_vesrion: 0.0.1-SNAPSHOT
   artifact_id: service-registration-and-discovery-service
   group_id: com.example
+
+################################### Required ######################################
