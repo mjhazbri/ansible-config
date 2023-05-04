@@ -3,9 +3,13 @@ service-registration-and-discovery-client:
   type: front
   number: 2
   app_vesrion: 0.0.1-SNAPSHOT
+  artifact_id: service-registration-and-discovery-client
+  group_id: com.example
 
 service-registration-and-discovery-service:
   app_name: service-registration-and-discovery-service
   type: back
   number: 1
   app_vesrion: 0.0.1-SNAPSHOT
+  artifact_id: service-registration-and-discovery-service
+  group_id: com.example

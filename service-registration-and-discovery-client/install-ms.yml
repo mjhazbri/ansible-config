@@ -1,3 +1,4 @@
+# Required
 log_sub_dir: /log
 data_sub_dir: /data
 pid_sub_dir: /pid
@@ -5,3 +6,5 @@ tmp_sub_dir: /tmp
 dmp_sub_dir: /dmp
 config_sub_dir: /config
 properties_file_name: application.properties
+
+#Not Required
