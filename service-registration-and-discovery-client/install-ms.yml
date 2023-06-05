@@ -9,6 +9,5 @@ dmp_sub_dir: /dmp
 config_sub_dir: /config
 properties_file_name: application.properties
 properties_file_name_tpl: app.properties.j2
-config_file_name_tpl: app.config.j2
 # for ports, will be mapped in app_port for every instance microservice. If value not mentionend, we will use the value in yml (properties) file.
 ports: [8080,8081]
